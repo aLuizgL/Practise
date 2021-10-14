@@ -20,12 +20,14 @@ body {
   /* Container for flexboxes */
   .row {
     display: -webkit-flex;
+    border: 1px solid #000;
     display: flex;
   }
   
   /* Create three equal columns that sits next to each other */
   .column {
     -webkit-flex: 1;
+    border: 1px solid #000;
     -ms-flex: 1;
     flex: 1;
     padding: 10px;
@@ -40,7 +42,7 @@ body {
   }
   div.footer{
       border: 1px solid #000;
-      width: 30%;
+      width: 100%;
       height: auto;
   }
   
